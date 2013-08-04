@@ -1,0 +1,20 @@
+PREFIX=/opt/local/Library/Frameworks/Python.framework/Versions/2.7
+CC=gcc
+CXX=g++
+CXXFLAGS= -D_MP_INTERNAL -m32  -c -fopenmp -mfpmath=sse -O3 -D _EXTERNAL_RELEASE -fomit-frame-pointer -fPIC -msse -msse2
+CXX_OUT_FLAG=-o 
+OBJ_EXT=.o
+LIB_EXT=.a
+AR=ar
+AR_FLAGS=rcs
+AR_OUTFLAG=
+EXE_EXT=
+LINK=g++
+LINK_FLAGS=-m32
+LINK_OUT_FLAG=-o 
+LINK_EXTRA_FLAGS=-lpthread  -fopenmp
+SO_EXT=.dylib
+SLINK=g++
+SLINK_FLAGS=-dynamiclib -m32
+SLINK_EXTRA_FLAGS= -fopenmp
+SLINK_OUT_FLAG=-o 

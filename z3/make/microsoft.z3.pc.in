@@ -1,0 +1,6 @@
+Name: Microsoft.Z3
+Description: Microsoft.Z3
+Version: 0.1
+
+Requires: 
+Libs: -r:@expanded_libdir@/@PACKAGE@/Microsoft.Z3.dll
